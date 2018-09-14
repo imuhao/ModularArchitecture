@@ -32,7 +32,7 @@ android {
       } else {
         manifest.srcFile 'src/main/AndroidManifest.xml'
         //集成开发模式下排除debug文件夹中的所有Java文件
-        java {
+        javals {
           exclude 'debug/**'
         }
       }
