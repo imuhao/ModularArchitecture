@@ -27,7 +27,9 @@ if (isModule.toBoolean()) {
 
 2. 模块之间` AndroidManifest`合并问题
 在模块的目录下我们创建了一个这个模块作为独立应用的` AndroidManifest`文件
+
 ![](http://muhao.qiniudn.com/15369126976425.jpg)
+
 然后在` build.gradle`文件中指定文件路径
 
 ```
