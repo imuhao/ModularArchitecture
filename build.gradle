@@ -1,0 +1,33 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+  apply from: 'versions.gradle'
+  addRepos(repositories)
+  dependencies {
+    classpath 'com.android.tools.build:gradle:3.1.4'
+  }
+  repositories {
+    maven {
+      url "http://mvn.gt.igexin.com/nexus/content/repositories/releases/"
+    }
+    maven {
+      url "https://jitpack.io"
+    }
+  }
+}
+
+allprojects {
+  addRepos(repositories)
+  repositories {
+    maven {
+      url "http://mvn.gt.igexin.com/nexus/content/repositories/releases/"
+    }
+    maven {
+      url "https://jitpack.io"
+    }
+  }
+}
+
+task clean(type: Delete) {
+  delete rootProject.buildDir
+}
