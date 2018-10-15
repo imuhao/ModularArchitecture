@@ -1,6 +1,6 @@
-package com.bixnainmao.localmastercard.lib_common.common;
+package com.caimuhao.architecture.lib_common.common;
 
-import com.bixnainmao.localmastercard.lib_common.BuildConfig;
+import com.caimuhao.architecture.lib_common.BuildConfig;
 
 /**
  * @author Smile

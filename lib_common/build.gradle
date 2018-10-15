@@ -8,7 +8,11 @@ android {
     targetSdkVersion build_versions.target_sdk
     versionCode build_versions.version_code
     versionName build_versions.version_name
-
+    javaCompileOptions {
+      annotationProcessorOptions {
+        arguments = [ AROUTER_MODULE_NAME : project.getName() ]
+      }
+    }
   }
 
   buildTypes {
@@ -43,7 +47,6 @@ dependencies {
 
   //router
   api deps.arouter_api
-
 
   //other
   api deps.utils

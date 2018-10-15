@@ -1,4 +1,4 @@
-package com.bixnainmao.localmastercard.lib_common.utils;
+package com.caimuhao.architecture.lib_common.utils;
 
 /**
  * @author Smile

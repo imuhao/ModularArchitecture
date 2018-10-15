@@ -1,4 +1,4 @@
-package com.bixnainmao.localmastercard.lib_common.base;
+package com.caimuhao.architecture.lib_common.base;
 
 import java.io.EOFException;
 import java.nio.charset.Charset;

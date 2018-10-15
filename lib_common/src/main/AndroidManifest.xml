@@ -1,12 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bixnainmao.localmastercard.lib_common">
+    package="com.caimuhao.architecture.lib_common">
 
 
   <uses-permission android:name="android.permission.INTERNET"/>
 
   <application>
     <meta-data
-        android:name="com.bixnainmao.localmastercard.lib_common.base.BaseApplication"
+        android:name="com.caimuhao.architecture.lib_common.base.BaseApplication"
         android:value="LibCommon"/>
   </application>
 

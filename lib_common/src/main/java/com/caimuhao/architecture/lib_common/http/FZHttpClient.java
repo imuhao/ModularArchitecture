@@ -1,6 +1,6 @@
-package com.bixnainmao.localmastercard.lib_common.http;
+package com.caimuhao.architecture.lib_common.http;
 
-import com.bixnainmao.localmastercard.lib_common.common.AppConfig;
+import com.caimuhao.architecture.lib_common.common.AppConfig;
 import java.net.Proxy;
 import java.security.SecureRandom;
 import java.security.cert.CertificateException;

@@ -1,4 +1,4 @@
-package com.bixnainmao.localmastercard.lib_common.common;
+package com.caimuhao.architecture.lib_common.common;
 
 /**
  * @author Maliang

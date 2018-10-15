@@ -1,8 +1,8 @@
-package com.bixnainmao.localmastercard.lib_common.base;
+package com.caimuhao.architecture.lib_common.base;
 
 import android.app.Application;
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.bixnainmao.localmastercard.lib_common.BuildConfig;
+import com.caimuhao.architecture.lib_common.BuildConfig;
 import com.blankj.utilcode.util.LogUtils;
 import com.blankj.utilcode.util.Utils;
 

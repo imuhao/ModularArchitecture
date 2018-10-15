@@ -1,4 +1,4 @@
-package com.bixnainmao.localmastercard.lib_common.http.api;
+package com.caimuhao.architecture.lib_common.http.api;
 
 import java.util.concurrent.TimeUnit;
 import okhttp3.OkHttpClient;
